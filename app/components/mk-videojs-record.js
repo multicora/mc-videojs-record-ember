@@ -1,0 +1,1 @@
+export { default } from 'mk-videojs-record/components/mk-videojs-record';
