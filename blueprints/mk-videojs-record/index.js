@@ -2,7 +2,7 @@ module.exports = {
   description: 'mk-videojs-record',
 
   afterInstall: function() {
-    return this.addBowerPackageToProject('mc-videojs-record', '1.5.1');
+    return this.addBowerPackageToProject('mc-videojs-record', '1.5.0');
   },
 
   normalizeEntityName: function() {
