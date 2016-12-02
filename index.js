@@ -42,13 +42,13 @@ module.exports = {
       app.import(path.join(app.bowerDirectory, 'video.js/dist/video-js.swf'), { destDir: 'assets' });
 
       app.import(path.join(app.bowerDirectory, 'recordrtc/RecordRTC.js'));
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/js/videojs.record.js'));
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/js/videojs.record.js'));
       // app.import(path.join(app.bowerDirectory, 'video.js/dist/video.js'));
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/css/videojs.record.css'));
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/css/font/videojs-record.eot'), { destDir: 'assets/font' });
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/css/font/videojs-record.svg'), { destDir: 'assets/font' });
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/css/font/videojs-record.ttf'), { destDir: 'assets/font' });
-      app.import(path.join(app.bowerDirectory, 'videojs-record/src/css/font/videojs-record.woff'), { destDir: 'assets/font' });
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/css/videojs.record.css'));
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/css/font/videojs-record.eot'), { destDir: 'assets/font' });
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/css/font/videojs-record.svg'), { destDir: 'assets/font' });
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/css/font/videojs-record.ttf'), { destDir: 'assets/font' });
+      app.import(path.join(app.bowerDirectory, 'mc-videojs-record/src/css/font/videojs-record.woff'), { destDir: 'assets/font' });
     }
   }
 };
